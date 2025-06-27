@@ -19,6 +19,22 @@ This repository contains solutions for weekly Java Full Stack Engineer (FSE) han
 | E-Commerce Search          | Product search functionality with user input using Scanner.      |
 | Financial Forecasting      | Sales forecasting using averages from user-entered sales data.   |
 
+
+# 📝 Week 2 Assignment – PL/SQL, Java TDD & Mockito 
+
+## Contents
+
+| Exercise                        | File/Class Name / SQL File          | Description                                        |
+|----------------------------------|-------------------------------------|----------------------------------------------------|
+| PL/SQL Control Structures        | Control_Structures.sql              | Demonstrates use of loops and IF in PL/SQL         |
+| PL/SQL Stored Procedure          | Stored_Procedure_Add_Numbers.sql    | Adds two numbers using a PL/SQL stored procedure   |
+| JUnit Assertions                 | CalculatorAssertionTest.java        | Basic assertions (`assertEquals`, etc.) in JUnit   |
+| Arrange-Act-Assert Pattern       | CalculatorAAATest.java              | Tests structured with the AAA pattern              |
+| Parameterized Tests              | CalculatorParamTest.java            | JUnit 5 parameterized tests                        |
+| Mockito Mocking/Stubbing         | UserServiceTest.java                | Using Mockito to mock and stub dependencies        |
+| Mockito Verifying Interactions   | UserServiceTest.java                | Verifying method calls using Mockito               |
+
+
 ## 🚀 How to Run
 
 1. Clone this repository: git clone https://github.com/AbhinavJD7/cognizant-practice.git
@@ -26,5 +42,7 @@ This repository contains solutions for weekly Java Full Stack Engineer (FSE) han
 3. Compile & Run the Java files using:
     javac Main.java    (Here "Main" is the name of java file which is to be compiled)
     java Main
+4. All tests should pass if setup correctly.
+
 
 ## Thank You ##
