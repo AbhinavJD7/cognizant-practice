@@ -20,7 +20,7 @@ This repository contains solutions for weekly Java Full Stack Engineer (FSE) han
 | Financial Forecasting      | Sales forecasting using averages from user-entered sales data.   |
 
 
-# 📝 Week 2 Assignment – PL/SQL, Java TDD & Mockito 
+## 📝 Week 2 Assignment – PL/SQL, Java TDD & Mockito 
 
 ## Contents
 
