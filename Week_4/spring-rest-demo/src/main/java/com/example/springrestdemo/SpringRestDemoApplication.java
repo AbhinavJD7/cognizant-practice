@@ -1,4 +1,4 @@
-package com.example.spring_rest_demo;
+package com.example.springrestdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
