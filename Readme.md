@@ -40,8 +40,21 @@ This repository contains solutions for weekly Java Full Stack Engineer (FSE) han
 | Spring Dependency Injection       | AppConfig.java, MessageService.java, UserService.java | Demonstrates constructor-based DI using `@Configuration` and `@Bean` |
 | Maven Project Configuration       | pom.xml                             | Configured with `exec-maven-plugin` to run Spring Core classes     |
 | Spring Data JPA (Entity & Repo)   | User.java, UserRepository.java      | Created entity and repository for DB operations via Spring Data JPA |
-| Spring Boot + REST API            | UserController.java, UserService.java | Exposed REST endpoints for CRUD operations                         |
+| Spring Boot + REST API            | UserController.java, UserService.java | Exposed REST endpoints for CRUD operations  
+                       |
 
+## 📝 Week 4 Assignment – Spring REST + Security + JWT
+
+| Exercise                              | File/Class Name                          | Description                                                               |
+|---------------------------------------|------------------------------------------|---------------------------------------------------------------------------|
+| Hello World REST API                  | HelloController.java                     | Basic `@RestController` with `/hello` endpoint                           |
+| Country API (Static Data)            | Country.java, CountryController.java     | Returns country details using REST                                        |
+| Get Country by Code                  | CountryController.java                   | REST endpoint: `/country/{code}`                                          |
+| Spring Core with XML Configuration   | App.java, beans.xml                      | XML-based Spring context with bean injection                             |
+| JWT Login Endpoint                   | AuthController.java, JwtUtil.java        | Authenticates users and returns a JWT using hardcoded credentials         |
+| Security Configuration               | SecurityConfig.java                      | Configured Spring Security filters to enable authentication using JWT     |
+
+---
 
 
 ## 🚀 How to Run
