@@ -41,7 +41,6 @@ This repository contains solutions for weekly Java Full Stack Engineer (FSE) han
 | Maven Project Configuration       | pom.xml                             | Configured with `exec-maven-plugin` to run Spring Core classes     |
 | Spring Data JPA (Entity & Repo)   | User.java, UserRepository.java      | Created entity and repository for DB operations via Spring Data JPA |
 | Spring Boot + REST API            | UserController.java, UserService.java | Exposed REST endpoints for CRUD operations  
-                       |
 
 ## 📝 Week 4 Assignment – Spring REST + Security + JWT
 
