@@ -53,6 +53,17 @@ This repository contains solutions for weekly Java Full Stack Engineer (FSE) han
 | JWT Login Endpoint                   | AuthController.java, JwtUtil.java        | Authenticates users and returns a JWT using hardcoded credentials         |
 | Security Configuration               | SecurityConfig.java                      | Configured Spring Security filters to enable authentication using JWT     |
 
+## 📝 Week 5 Assignment – Microservices with Spring Boot and Spring Cloud
+
+| Exercise                | File/Class Name / Module Name | Description                                                             |
+| ----------------------- | ----------------------------- | ----------------------------------------------------------------------- |
+| Eureka Discovery Server | `eureka_server`               | Spring Boot project with `@EnableEurekaServer`. Runs on port `8761`.    |
+| Account Microservice    | `account_service`             | REST microservice exposing `/account` endpoint. Registers with Eureka.  |
+| Loan Microservice       | `loan_service`                | REST microservice exposing `/loan` endpoint. Registers with Eureka.     |
+| API Gateway             | `api_gateway`                 | Routes `/account/**` to account service and `/loan/**` to loan service. |
+
+
+
 ---
 
 
